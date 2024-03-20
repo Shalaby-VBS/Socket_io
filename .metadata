@@ -1,0 +1,21 @@
+version:
+  revision: "e1e47221e86272429674bec4f1bd36acc4fc7b77"
+  channel: "stable"
+
+project_type: app
+
+migration:
+  platforms:
+    - platform: root
+      create_revision: e1e47221e86272429674bec4f1bd36acc4fc7b77
+      base_revision: e1e47221e86272429674bec4f1bd36acc4fc7b77
+    - platform: android
+      create_revision: e1e47221e86272429674bec4f1bd36acc4fc7b77
+      base_revision: e1e47221e86272429674bec4f1bd36acc4fc7b77
+    - platform: ios
+      create_revision: e1e47221e86272429674bec4f1bd36acc4fc7b77
+      base_revision: e1e47221e86272429674bec4f1bd36acc4fc7b77
+
+  unmanaged_files:
+    - "lib/main.dart"
+    - "ios/Runner.xcodeproj/project.pbxproj"
