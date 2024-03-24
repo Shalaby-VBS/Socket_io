@@ -11,9 +11,7 @@ class SocketScreen extends StatefulWidget {
 class _SocketScreenState extends State<SocketScreen> {
   // MARK: - Variables.
   late Socket socket;
-
   TextEditingController messageController = TextEditingController();
-
   List<String> messages = [];
 
   @override
