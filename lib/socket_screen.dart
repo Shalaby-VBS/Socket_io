@@ -12,6 +12,7 @@ class _SocketScreenState extends State<SocketScreen> {
   late Socket socket;
 
   TextEditingController messageController = TextEditingController();
+
   List<String> messages = [];
 
   @override
