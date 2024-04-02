@@ -9,10 +9,12 @@ class SocketScreen extends StatefulWidget {
 }
 
 class _SocketScreenState extends State<SocketScreen> {
+  // final socket = io('http://127.0.0.1:63828', <String, dynamic>{
+  //   'transports': ['websocket'],
+  //   'autoConnect': false,
+  // });
   late Socket socket;
-
   TextEditingController messageController = TextEditingController();
-  // fgjhgjg
   List<String> messages = [];
 
   @override
